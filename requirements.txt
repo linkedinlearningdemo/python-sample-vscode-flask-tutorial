@@ -1,1 +1,1 @@
-Flask
+flask==0.12  # Known security issues

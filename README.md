@@ -49,6 +49,7 @@ resource "aws_security_group" "insecure" {
     cidr_blocks = ["0.0.0.0/0"] # Open to the world
   }
 }
+
 env:
   AWS_SECRET_ACCESS_KEY: "AKIAEXAMPLESECRETKEY"
 API_KEY = "1234567890abcdef"
